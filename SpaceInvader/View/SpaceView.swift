@@ -19,11 +19,9 @@ struct SpaceView: View
                 .edgesIgnoringSafeArea(.all)
             VStack
             {
-                Text("Space Invadoors")
-                    .font(.title)
-                    .foregroundColor(Color.yellow)
-                    .padding()
-                NavigationLink("Play", destination: SpaceGame())
+                Image("space invadoors letters")
+                    
+                Text("Play")
                     .padding()
                     .foregroundColor(Color.black)
                     .background(Color.white)
