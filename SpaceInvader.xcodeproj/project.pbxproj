@@ -7,18 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09F0C91B258272EA0003A2F0 /* StartGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F0C91A258272EA0003A2F0 /* StartGameScene.swift */; };
-		09F0C926258279200003A2F0 /* InstructionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F0C925258279200003A2F0 /* InstructionView.swift */; };
 		4A42558C2576931700EF070F /* SpaceInvaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A42558B2576931700EF070F /* SpaceInvaderApp.swift */; };
 		4A42558E2576931700EF070F /* SpaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A42558D2576931700EF070F /* SpaceView.swift */; };
 		4A4255902576931800EF070F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A42558F2576931800EF070F /* Assets.xcassets */; };
 		4A4255932576931800EF070F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A4255922576931800EF070F /* Preview Assets.xcassets */; };
 		4A4255A22576A3C800EF070F /* SpaceGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4255A12576A3C800EF070F /* SpaceGame.swift */; };
+		BFC40F0025826E7F0001A477 /* InstructionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC40EFF25826E7F0001A477 /* InstructionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		09F0C91A258272EA0003A2F0 /* StartGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartGameScene.swift; sourceTree = "<group>"; };
-		09F0C925258279200003A2F0 /* InstructionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionView.swift; sourceTree = "<group>"; };
 		4A4255882576931700EF070F /* SpaceInvader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceInvader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A42558B2576931700EF070F /* SpaceInvaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceInvaderApp.swift; sourceTree = "<group>"; };
 		4A42558D2576931700EF070F /* SpaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceView.swift; sourceTree = "<group>"; };
@@ -26,6 +23,7 @@
 		4A4255922576931800EF070F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4A4255942576931800EF070F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A4255A12576A3C800EF070F /* SpaceGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceGame.swift; sourceTree = "<group>"; };
+		BFC40EFF25826E7F0001A477 /* InstructionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,8 +86,7 @@
 			children = (
 				4A42558D2576931700EF070F /* SpaceView.swift */,
 				4A4255A12576A3C800EF070F /* SpaceGame.swift */,
-				09F0C91A258272EA0003A2F0 /* StartGameScene.swift */,
-				09F0C925258279200003A2F0 /* InstructionView.swift */,
+				BFC40EFF25826E7F0001A477 /* InstructionView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -164,10 +161,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A4255A22576A3C800EF070F /* SpaceGame.swift in Sources */,
-				09F0C91B258272EA0003A2F0 /* StartGameScene.swift in Sources */,
+				BFC40F0025826E7F0001A477 /* InstructionView.swift in Sources */,
 				4A42558E2576931700EF070F /* SpaceView.swift in Sources */,
 				4A42558C2576931700EF070F /* SpaceInvaderApp.swift in Sources */,
-				09F0C926258279200003A2F0 /* InstructionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

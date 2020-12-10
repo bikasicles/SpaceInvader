@@ -17,6 +17,7 @@ struct SpaceView: View
             {
                 Image("blue galaxy")
                     .resizable()
+                    .frame(width: 430.0)
                     .scaledToFill()
                     .edgesIgnoringSafeArea(.all)
                 VStack
@@ -41,4 +42,3 @@ struct ContentView_Previews: PreviewProvider
             
     }
 }
-

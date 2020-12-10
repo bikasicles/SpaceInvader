@@ -2,14 +2,14 @@
 //  InstructionView.swift
 //  SpaceInvader
 //
-//  Created by Armstrong, Julian on 12/10/20.
+//  Created by Russell, Preston on 12/10/20.
 //
 
 import SwiftUI
 
 struct InstructionView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("How to Play!")
     }
 }
 
