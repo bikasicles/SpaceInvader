@@ -11,33 +11,25 @@ struct SpaceView: View
 {
     var body: some View
     {
-        ZStack
+        NavigationView
         {
-            Image("blue galaxy")
-                .resizable()
-                .scaledToFill()
-                .edgesIgnoringSafeArea(.all)
-            VStack
+            ZStack
             {
-<<<<<<< Updated upstream
-                Image("space invadoors letters")
-=======
                 Image("blue galaxy")
                     .resizable()
-                    .frame(width: 429.0)
                     .scaledToFill()
                     .edgesIgnoringSafeArea(.all)
                 VStack
                 {
                     Image("space invadoors letters")
->>>>>>> Stashed changes
                     
-                Text("Play")
-                    .padding()
-                    .foregroundColor(Color.black)
-                    .background(Color.white)
-            }
-        }.padding(.horizontal).navigationBarBackButtonHidden(true)
+                    NavigationLink("Play", destination: SpaceGame())
+                        .accentColor(.black)
+                        .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color.white/*@END_MENU_TOKEN@*/)
+                }
+            }.padding(.horizontal)
+            .navigationBarBackButtonHidden(true)
+        }
     }
 }
 
@@ -49,4 +41,3 @@ struct ContentView_Previews: PreviewProvider
             
     }
 }
-
