@@ -12,6 +12,7 @@
 		4A4255902576931800EF070F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A42558F2576931800EF070F /* Assets.xcassets */; };
 		4A4255932576931800EF070F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A4255922576931800EF070F /* Preview Assets.xcassets */; };
 		4A4255A22576A3C800EF070F /* SpaceGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4255A12576A3C800EF070F /* SpaceGame.swift */; };
+		BFC40F0025826E7F0001A477 /* InstructionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC40EFF25826E7F0001A477 /* InstructionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4A4255922576931800EF070F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4A4255942576931800EF070F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A4255A12576A3C800EF070F /* SpaceGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceGame.swift; sourceTree = "<group>"; };
+		BFC40EFF25826E7F0001A477 /* InstructionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 			children = (
 				4A42558D2576931700EF070F /* SpaceView.swift */,
 				4A4255A12576A3C800EF070F /* SpaceGame.swift */,
+				BFC40EFF25826E7F0001A477 /* InstructionView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A4255A22576A3C800EF070F /* SpaceGame.swift in Sources */,
+				BFC40F0025826E7F0001A477 /* InstructionView.swift in Sources */,
 				4A42558E2576931700EF070F /* SpaceView.swift in Sources */,
 				4A42558C2576931700EF070F /* SpaceInvaderApp.swift in Sources */,
 			);
