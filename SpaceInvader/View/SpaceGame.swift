@@ -12,7 +12,13 @@ struct SpaceGame: View
     @Environment(\.presentationMode) private var mode: Binding<PresentationMode>
     var body: some View
     {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack
+        {
+            Button("go back")
+            {
+                self.mode.wrappedValue.dismiss()
+            }
+        }.padding(.horizontal).navigationBarBackButtonHidden(true)
     }
 }
 
