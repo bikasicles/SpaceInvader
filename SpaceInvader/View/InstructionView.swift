@@ -7,14 +7,23 @@
 
 import SwiftUI
 
-struct InstructionView: View {
-    var body: some View {
-        Text("How to Play!")
+struct InstructionView: View
+{
+    var body: some View
+    {
+        VStack
+        {
+            Text("How to Play!")
+            Text("Step One: Click play!")
+            Text("Step Two: click and drag your ship")
+        }
     }
 }
 
-struct InstructionView_Previews: PreviewProvider {
-    static var previews: some View {
+struct InstructionView_Previews: PreviewProvider
+{
+    static var previews: some View
+    {
         InstructionView()
     }
 }
