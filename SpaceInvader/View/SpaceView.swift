@@ -19,7 +19,18 @@ struct SpaceView: View
                 .edgesIgnoringSafeArea(.all)
             VStack
             {
+<<<<<<< Updated upstream
                 Image("space invadoors letters")
+=======
+                Image("blue galaxy")
+                    .resizable()
+                    .frame(width: 429.0)
+                    .scaledToFill()
+                    .edgesIgnoringSafeArea(.all)
+                VStack
+                {
+                    Image("space invadoors letters")
+>>>>>>> Stashed changes
                     
                 Text("Play")
                     .padding()
