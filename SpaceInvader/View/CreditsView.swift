@@ -11,7 +11,16 @@ struct CreditsView: View
 {
     var body: some View
     {
-        Text("Liam did it all")
+        VStack
+        {
+            Text("Credits")
+                .font(.title)
+                .fontWeight(.heavy)
+                .foregroundColor(Color.black)
+            Text("Title Screen: Liam Johnson")
+            Text("Game Design: Julian Armstrong")
+            Text("Instruction page: Preston Russell")
+        }
     }
 }
 
