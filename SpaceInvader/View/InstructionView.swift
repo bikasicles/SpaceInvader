@@ -14,8 +14,10 @@ struct InstructionView: View
         VStack
         {
             Text("How to Play!")
+                .font(.title)
             Text("Step One: Click play!")
             Text("Step Two: click and drag your ship to move!")
+            
             
         }
     }
