@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A369B09258914A600908480 /* StartGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A369B08258914A600908480 /* StartGameScene.swift */; };
 		4A42558C2576931700EF070F /* SpaceInvaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A42558B2576931700EF070F /* SpaceInvaderApp.swift */; };
 		4A42558E2576931700EF070F /* SpaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A42558D2576931700EF070F /* SpaceView.swift */; };
 		4A4255902576931800EF070F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A42558F2576931800EF070F /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A369B08258914A600908480 /* StartGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartGameScene.swift; sourceTree = "<group>"; };
 		4A4255882576931700EF070F /* SpaceInvader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceInvader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A42558B2576931700EF070F /* SpaceInvaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceInvaderApp.swift; sourceTree = "<group>"; };
 		4A42558D2576931700EF070F /* SpaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceView.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				4A42558D2576931700EF070F /* SpaceView.swift */,
 				4A4255A12576A3C800EF070F /* SpaceGame.swift */,
 				BFC40EFF25826E7F0001A477 /* InstructionView.swift */,
+				4A369B08258914A600908480 /* StartGameScene.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 			files = (
 				4A4255A22576A3C800EF070F /* SpaceGame.swift in Sources */,
 				BFC40F0025826E7F0001A477 /* InstructionView.swift in Sources */,
+				4A369B09258914A600908480 /* StartGameScene.swift in Sources */,
 				4A42558E2576931700EF070F /* SpaceView.swift in Sources */,
 				4A42558C2576931700EF070F /* SpaceInvaderApp.swift in Sources */,
 			);
