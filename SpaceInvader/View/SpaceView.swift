@@ -27,6 +27,13 @@ struct SpaceView: View
                     NavigationLink("Play", destination: SpaceGame())
                         .accentColor(.black)
                         .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color.white/*@END_MENU_TOKEN@*/)
+                    
+                    NavigationLink("How to play", destination: InstructionView())
+                        .foregroundColor(.black)
+                        .background(Color.white)
+                    NavigationLink("Credits", destination: CreditsView())
+                        .foregroundColor(.black)
+                        .background(Color.white)
                 }
             }.padding(.horizontal)
             .navigationBarBackButtonHidden(true)
