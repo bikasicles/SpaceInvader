@@ -15,7 +15,8 @@ struct InstructionView: View
         {
             Text("How to Play!")
             Text("Step One: Click play!")
-            Text("Step Two: click and drag your ship")
+            Text("Step Two: click and drag your ship to move!")
+            
         }
     }
 }
