@@ -22,12 +22,16 @@ struct InstructionView: View
                 Text("How to Play!")
                     .font(.title)
                     .foregroundColor(Color.pink)
+                    .padding(.horizontal)
                 Text("Step One: Click play!")
-                    .foregroundColor(Color.black)
+                    .foregroundColor(Color.green)
+                    .padding(.horizontal)
                 Text("Step Two: click and drag your ship to move!")
                     .foregroundColor(Color.red)
-                Text("Step Three: Enjoy the game")
+                    .padding(.horizontal)
+                Text("Step Three: Enjoy the game!")
                     .foregroundColor(Color.orange)
+                    .padding(.horizontal)
             }
         }
     }
