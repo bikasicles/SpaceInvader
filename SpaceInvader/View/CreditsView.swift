@@ -22,10 +22,13 @@ struct CreditsView: View
                 Text("Credits")
                     .font(.title)
                     .fontWeight(.heavy)
-                    .foregroundColor(Color.black)
+                    .foregroundColor(Color.white)
                 Text("Title Screen: Liam Johnson")
+                    .foregroundColor(Color.white)
                 Text("Game Design: Julian Armstrong")
+                    .foregroundColor(Color.white)
                 Text("Instruction page: Preston Russell")
+                    .foregroundColor(Color.white)
             }
         }
     }
