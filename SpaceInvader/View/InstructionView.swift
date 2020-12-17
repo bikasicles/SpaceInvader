@@ -11,19 +11,24 @@ struct InstructionView: View
 {
     var body: some View
     {
-        VStack
+        ZStack
         {
-            Text("How to Play!")
-                .font(.title)
-                .foregroundColor(Color.pink)
-            Text("Step One: Click play!")
-                .foregroundColor(Color.black)
-            Text("Step Two: click and drag your ship to move!")
-                .foregroundColor(Color.red)
-            Text("Step Three: Enjoy the game")
-                .foregroundColor(Color.orange)
-            
-            
+            Image("space 2")
+                .resizable()
+                .scaledToFill()
+                .edgesIgnoringSafeArea(.all)
+            VStack
+            {
+                Text("How to Play!")
+                    .font(.title)
+                    .foregroundColor(Color.pink)
+                Text("Step One: Click play!")
+                    .foregroundColor(Color.black)
+                Text("Step Two: click and drag your ship to move!")
+                    .foregroundColor(Color.red)
+                Text("Step Three: Enjoy the game")
+                    .foregroundColor(Color.orange)
+            }
         }
     }
 }
