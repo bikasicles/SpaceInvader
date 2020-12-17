@@ -15,8 +15,13 @@ struct InstructionView: View
         {
             Text("How to Play!")
                 .font(.title)
+                .foregroundColor(Color.pink)
             Text("Step One: Click play!")
+                .foregroundColor(Color.black)
             Text("Step Two: click and drag your ship to move!")
+                .foregroundColor(Color.red)
+            Text("Step Three: Enjoy the game")
+                .foregroundColor(Color.orange)
             
             
         }
